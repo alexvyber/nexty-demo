@@ -7,7 +7,7 @@ const { size, variant } = buttonConfig.variants;
 
 export default function Home() {
   return (
-    <div className="h-screen w-full flex justify-center items-center flex-col">
+    <div className="min-h-screen w-full flex justify-center items-center flex-col">
       <h1 className="text-7xl font-bold text-orange-500 ">Hello world!</h1>
 
       <Button variant="blueVariant">AAAAAAAAAAAAAAAAA</Button>
